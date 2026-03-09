@@ -18,5 +18,14 @@ public class FizzBuzzTest {
     void check_number_to_string(int input, String expectedOutput) {
         assertEquals(expectedOutput, new Fizzbuzz().convert(input));
     }
-
+    @ParameterizedTest
+    @CsvSource({
+            "3 , 'Fizz'",
+            "6 , 'Fizz'",
+            "9 , 'Fizz'",
+            "12 , 'Fizz'",
+    })
+    void check_number_to_fizz_string(int input, String expectedOutput) {
+        assertEquals(expectedOutput, new Fizzbuzz().convert(input));
+    }
 }
