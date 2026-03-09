@@ -35,6 +35,9 @@ FizzBuzz es un ejercicio de programación simple pero efectivo que implica:
 ### Ejemplo:
 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, ...
 
+<img width="355" height="196" alt="CapturaTestJava" src="https://github.com/user-attachments/assets/1015e8d7-e005-4f2a-9918-8e5f4eee555a" />
+
+
 Code
 
 ## 🧪 Metodología TDD
